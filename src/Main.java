@@ -16,7 +16,6 @@ public class Main {
         System.out.println(getAnserYear);
 
         int Year = 2021;
-
         boolean TR = (Year % 4 == 0 && Year % 100 != 0) || (Year % 400 == 0);
         if (TR) {
             System.out.println(Year + " Высокосный");
