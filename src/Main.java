@@ -24,7 +24,6 @@ public class Main {
         }
         int deliveryDistance = 115;
         int countDay = 1;
-
         if (deliveryDistance <= 20){
             System.out.println("Потребуется дней: " + countDay);
         }else {
