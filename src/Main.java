@@ -26,6 +26,7 @@ public class Main {
 
         boolean leapYear = (Year % 4 == 0 && Year % 100 != 0) || (Year % 400 == 0);
         if (leapYear) {
+
             System.out.println(Year + " Высокосный");
         } else {
             System.out.println(Year + " Невысокосный");
@@ -35,7 +36,10 @@ public class Main {
 
         int deliveryDistance = 115;
         int countDay = 1;
-        if (deliveryDistance <= 20) {
+
+  
+
+        if (deliveryDistance <= 20){
             System.out.println("Потребуется дней: " + countDay);
         } else {
             countDay += 1;
