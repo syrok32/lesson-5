@@ -7,6 +7,7 @@ public class Main {
         System.out.println("Hello, World!");
 
         int clientOS = 1;
+
         if (clientOS == 1) {
             System.out.println("Установите версию приложения для Android по ссылке");
         }else {
