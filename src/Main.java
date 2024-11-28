@@ -10,7 +10,7 @@ public class Main {
 
         if (clientOS == 1) {
             System.out.println("Установите версию приложения для Android по ссылке");
-        }else {
+        } else {
             if (clientOS == 0) {
                 System.out.println("Установите версию приложения для iOS по ссылке");
             }
@@ -39,8 +39,7 @@ public class Main {
         int countDay = 1;
 
 
-
-        if (deliveryDistance <= 20){
+        if (deliveryDistance <= 20) {
             System.out.println("Потребуется дней: " + countDay);
         } else {
             countDay += 1;
