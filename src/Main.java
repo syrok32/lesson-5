@@ -17,7 +17,6 @@ public class Main {
         }
 
 
-
         System.out.println(2);
 
         int clientDeviceYear = 2015;
@@ -43,20 +42,17 @@ public class Main {
 
         if (deliveryDistance <= 20) {
             System.out.println("Потребуется дней: " + countDay);
-        } else {
-            countDay += 1;
-            if (deliveryDistance <= 60) {
-
-                System.out.println("Потребуется дней: " + countDay);
-            } else {
-                countDay += 1;
-                if (deliveryDistance <= 100) {
-
-                    System.out.println("Потребуется дней: " + countDay);
-                } else System.out.println("доставки нет");
-            }
-
         }
+        countDay += 1;
+        if (deliveryDistance <= 60) {
+            System.out.println("Потребуется дней: " + countDay);
+        }
+        countDay += 1;
+        if (deliveryDistance <= 100) {
+            System.out.println("Потребуется дней: " + countDay);
+        } else System.out.println("доставки нет");
+
+
         System.out.println(5);
         int monthNumber = 12;
         switch (monthNumber) {
